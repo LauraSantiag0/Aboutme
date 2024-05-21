@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(159, 248, 222);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(153,51,153);
+    display: block;
+    padding: 0px 20px;
+
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 50px;
+}
+
+ul#principal{
+    background-color: aquamarine;
+    width: 90%;
+    margin: auto;
+}
+.li-p{
+    line-height: 50px;
+    float: left;
+}
+
+ul li ul li{
+    background-color: aquamarine;
+}
+
+.ul-c, .ul-t, .ul-a, .ul-cont{
+    display: none;
+}
+
+#hero{
+    background-image: url(Capa.jpg);
+    background-size: auto;
+    color: rgb(255, 255, 255);
+    font-size:smaller;
+    padding: 20px 0 600px 0;
+    background-color: aliceblue;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0;
+    border: solid rgb(99, 198, 255) 10px;
+
+}
+
+#me{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(153,51,153);
+    size: 100px;
+}
+#about-me{
+    margin-top: 50px;
+    margin-left: 500px;
+    justify-content: center;
+}
+#eu{
+    justify-content: center;
+    border-radius: 200px;
+    border-style: double dotted; 
+    border-color: rgb(153,51,153);
+    margin-bottom: 50px;
+    
+}
+
+.texto{
+    color: rgb(153,51,153);
+    text-align: center;
+}
+
+.corpo{
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#iume{
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 300px;
+    border: rgb(153,51,153) dotted 4px;
+}
+
+#iume1{
+    display: flex;
+}
+
+#iumet{
+    margin-left: 50px;
+    margin-top: 125px;
+    color: rgb(153,51,153);
+}
+
+.jonas1{
+    display: flex;
+
+}
+.jonas{
+    margin-top: 50px;
+    margin-right: 80px;
+    border-radius: 300px;
+    border: rgb(153,51,153) dotted 4px;
+}
+.jonast{
+    margin-left: 50px;
+    margin-top: 150px;
+    color: rgb(153,51,153);
+}
+
+#samuel{
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 300px;
+    border: rgb(153,51,153) dotted 4px;
+}
+
+#samuel1{
+    display: flex;
+}
+
+#samuelt{
+    margin-left: 50px;
+    margin-top: 150px;
+    color: rgb(153,51,153);
+}
+
+#nos{
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 50px;
+    border: solid rgb(153,51,153) 4px;
+}

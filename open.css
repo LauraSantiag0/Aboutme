@@ -1,0 +1,37 @@
+body{
+    background-image: url(giphy.gif);
+    background-color: black;
+    text-align: center;
+    margin-top: 200px;
+}
+#button {
+    -moz-border-radius: 25px;
+    -moz-box-shadow: #cf0220 0px 0px 10px;
+    -moz-transform: rotate(0deg) skewX(0deg) scale(0.9) scaleX(0.8) scaleY(1);
+    -ms-transform: rotate(0deg) skewX(0deg) scale(0.9) scaleX(0.8) scaleY(1);
+    -o-transform: rotate(0deg) skewX(0deg) scale(0.9) scaleX(0.8) scaleY(1);
+    -webkit-border-radius: 25px;
+    -webkit-box-shadow: #6E7849 0 0 10px;
+    -webkit-transform: rotate(0deg) skewX(0deg) scale(0.9) scaleX(0.8) scaleY(1);
+    background-color: #d00fff;
+    background-image: -moz-linear-gradient(90deg, #7238f5, #d00fff);
+    background-image: -ms-linear-gradient(90deg, #7238f5, #d00fff);
+    background-image: -o-linear-gradient(90deg, #7238f5, #d00fff);
+    background-image: -webkit-linear-gradient(90deg, #7238f5, #d00fff);
+    background-image: linear-gradient(90deg, #7238f5, #d00fff);
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    box-shadow: #cf0220 0px 0px 10px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 2.8em;
+    margin: auto;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: #f9d2f7 5px 5px 20px;
+    transform: rotate(0deg) skewX(0deg) scale(0.9) scaleX(0.8) scaleY(1);
+  }
+  .button:hover {
+    padding: 15px;
+  }

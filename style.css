@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(159, 248, 222);
+    font-style: oblique;
+    font-size: x-large ;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.menu, ul{
+    background-color: rgb(145, 236, 209)
+}
+
+.menu, ul, li{
+    display: inline-block;
+}
+
+.menu, ul, li, a{
+    color: rgb(153,51,153);
+    text-decoration: none;
+    padding: 10px;
+}
+.menu, ul, li, a:hover {
+    
+   color: rgb(0,168,204);
+    text-decoration: none;
+    padding: 10px;
+}
